@@ -1,3 +1,3 @@
 # Learning Go
 ---
-Let's go! 🤦🏻‍♂️
+Let's Go! 🤦🏻‍♂️
