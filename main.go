@@ -7,5 +7,6 @@ func main() {
 	// fundamentals.Functions()
 	// fundamentals.Conditionals()
 	// fundamentals.Switch()
-	fundamentals.Loops()
+	// fundamentals.Loops()
+	fundamentals.Dice()
 }
