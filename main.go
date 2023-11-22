@@ -6,5 +6,6 @@ func main() {
 	// fundamentals.Variables()
 	// fundamentals.Functions()
 	// fundamentals.Conditionals()
-	fundamentals.Switch()
+	// fundamentals.Switch()
+	fundamentals.Loops()
 }
