@@ -1,8 +1,8 @@
-package main
+package fundamentals
 
 import "fmt"
 
-func main() {
+func Variables() {
 	const DaysInYear = 365
 
 	var favoriteColor string = "black"
@@ -20,5 +20,4 @@ func main() {
 	var ageInDays int
 	ageInDays = age * DaysInYear
 	fmt.Println("I am ", ageInDays, " days old.")
-
 }
