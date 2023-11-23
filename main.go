@@ -11,5 +11,6 @@ func main() {
 	// fundamentals.Loops()
 	// fundamentals.Dice()
 
-	types.Structs()
+	// types.Structs()
+	types.Arrays()
 }
