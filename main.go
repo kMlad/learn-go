@@ -1,6 +1,7 @@
 package main
 
-import fundamentals "learn-go/01-fundamentals"
+// import fundamentals "learn-go/01-fundamentals"
+import types "learn-go/02-types"
 
 func main() {
 	// fundamentals.Variables()
@@ -8,5 +9,7 @@ func main() {
 	// fundamentals.Conditionals()
 	// fundamentals.Switch()
 	// fundamentals.Loops()
-	fundamentals.Dice()
+	// fundamentals.Dice()
+
+	types.Structs()
 }
