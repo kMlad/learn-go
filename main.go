@@ -14,5 +14,6 @@ func main() {
 	// types.Structs()
 	// types.Arrays()
 	// types.Slices()
-	types.Maps()
+	// types.Maps()
+	types.Pointers()
 }
