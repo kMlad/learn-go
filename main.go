@@ -10,7 +10,7 @@ func main() {
 	// fundamentals.Conditionals()
 	// fundamentals.Switch()
 	// fundamentals.Loops()
-	// fundamentals.Dice()
+	// fundamentals.SRDice()
 
 	// Chapter 02 - Types
 	// types.Structs()
@@ -18,5 +18,5 @@ func main() {
 	// types.Slices()
 	// types.Maps()
 	// types.Pointers()
-	types.Library()
+	types.SectionReviewLibrary()
 }
