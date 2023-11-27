@@ -4,6 +4,7 @@ package main
 import types "learn-go/02-types"
 
 func main() {
+	// Chapter 01 - Fundamentals
 	// fundamentals.Variables()
 	// fundamentals.Functions()
 	// fundamentals.Conditionals()
@@ -11,9 +12,11 @@ func main() {
 	// fundamentals.Loops()
 	// fundamentals.Dice()
 
+	// Chapter 02 - Types
 	// types.Structs()
 	// types.Arrays()
 	// types.Slices()
 	// types.Maps()
-	types.Pointers()
+	// types.Pointers()
+	types.Library()
 }
