@@ -10,18 +10,20 @@ type Player struct {
 
 func (player *Player) changeHealth(newHealth uint) {
 	if newHealth > player.maxHealth {
-		panic(fmt.Sprintf("%v exceeds the player's max health.", newHealth))
+		// panic(fmt.Sprintf("%v exceeds the player's max health.", newHealth))
+		player.health = player.maxHealth
+	} else {
+		player.health = newHealth
 	}
-
-	player.health = newHealth
 }
 
 func (player *Player) changeEnergy(newEnergy uint) {
 	if newEnergy > player.maxEnergy {
-		panic(fmt.Sprintf("%v exceeds the player's max Energy.", newEnergy))
+		// panic(fmt.Sprintf("%v exceeds the player's max Energy.", newEnergy))
+		player.energy = player.maxEnergy
+	} else {
+		player.energy = newEnergy
 	}
-
-	player.energy = newEnergy
 }
 
 func (player *Player) printPlayerStatus() {
