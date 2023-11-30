@@ -23,5 +23,6 @@ func main() {
 	// types.SectionReviewLibrary()
 
 	// Chapter 03 - Idiomatic Go
-	idiomaticgo.ReceiverFunctions()
+	// idiomaticgo.ReceiverFunctions()
+	idiomaticgo.Iota()
 }
