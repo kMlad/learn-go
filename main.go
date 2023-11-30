@@ -1,7 +1,9 @@
 package main
 
+import idiomaticgo "learn-go/03-idiomatic-go"
+
 // import fundamentals "learn-go/01-fundamentals"
-import types "learn-go/02-types"
+// import types "learn-go/02-types"
 
 func main() {
 	// Chapter 01 - Fundamentals
@@ -18,5 +20,8 @@ func main() {
 	// types.Slices()
 	// types.Maps()
 	// types.Pointers()
-	types.SectionReviewLibrary()
+	// types.SectionReviewLibrary()
+
+	// Chapter 03 - Idiomatic Go
+	idiomaticgo.ReceiverFunctions()
 }
