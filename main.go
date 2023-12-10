@@ -1,9 +1,10 @@
 package main
 
-import idiomaticgo "learn-go/03-idiomatic-go"
+import interfaces "learn-go/04-interfaces"
 
 // import fundamentals "learn-go/01-fundamentals"
 // import types "learn-go/02-types"
+// import idiomaticgo "learn-go/03-idiomatic-go"
 
 func main() {
 	// Chapter 01 - Fundamentals
@@ -24,5 +25,8 @@ func main() {
 
 	// Chapter 03 - Idiomatic Go
 	// idiomaticgo.ReceiverFunctions()
-	idiomaticgo.Iota()
+	// idiomaticgo.Iota()
+
+	// Chapter 04 - Interfaces
+	interfaces.Interfaces()
 }
