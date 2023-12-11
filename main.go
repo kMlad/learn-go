@@ -28,5 +28,6 @@ func main() {
 	// idiomaticgo.Iota()
 
 	// Chapter 04 - Interfaces
-	interfaces.Interfaces()
+	// interfaces.Interfaces()
+	interfaces.Errors()
 }
