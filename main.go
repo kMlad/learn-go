@@ -36,5 +36,6 @@ func main() {
 	// interfaces.Generics()
 
 	// Chapter 05 - Concurrent Programming with Go
-	concurrency.Literals()
+	// concurrency.Literals()
+	concurrency.GoRoutines()
 }
