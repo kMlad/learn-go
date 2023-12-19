@@ -31,5 +31,6 @@ func main() {
 	// interfaces.Interfaces()
 	// interfaces.Errors()
 	// interfaces.Readers()
-	interfaces.Embedding()
+	// interfaces.Embedding()
+	interfaces.Generics()
 }
