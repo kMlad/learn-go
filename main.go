@@ -29,5 +29,6 @@ func main() {
 
 	// Chapter 04 - Interfaces
 	// interfaces.Interfaces()
-	interfaces.Errors()
+	// interfaces.Errors()
+	interfaces.Readers()
 }
