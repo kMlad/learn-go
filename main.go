@@ -30,5 +30,6 @@ func main() {
 	// Chapter 04 - Interfaces
 	// interfaces.Interfaces()
 	// interfaces.Errors()
-	interfaces.Readers()
+	// interfaces.Readers()
+	interfaces.Embedding()
 }
