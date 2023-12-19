@@ -1,10 +1,11 @@
 package main
 
-import interfaces "learn-go/04-interfaces"
+import concurrency "learn-go/05-concurrency"
 
 // import fundamentals "learn-go/01-fundamentals"
 // import types "learn-go/02-types"
 // import idiomaticgo "learn-go/03-idiomatic-go"
+// import interfaces "learn-go/04-interfaces"
 
 func main() {
 	// Chapter 01 - Fundamentals
@@ -32,5 +33,8 @@ func main() {
 	// interfaces.Errors()
 	// interfaces.Readers()
 	// interfaces.Embedding()
-	interfaces.Generics()
+	// interfaces.Generics()
+
+	// Chapter 05 - Concurrent Programming with Go
+	concurrency.Literals()
 }
