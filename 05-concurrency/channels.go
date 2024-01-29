@@ -3,6 +3,7 @@ package concurrency
 import (
 	"fmt"
 	"math/rand"
+	"sync/atomic"
 	"time"
 )
 
@@ -26,26 +27,33 @@ func makeJobs() []Job {
 func Channels() {
 	rand.New(rand.NewSource(time.Now().UnixNano()))
 
-	finalResult := 0
 	resChannel := make(chan int)
-	jobs := makeJobs()
+	doneChannel := make(chan bool)
+	defer close(resChannel)
+	defer close(doneChannel)
 
+	finalResult := 0
+	var completedJobs int32 = 0
+
+	jobs := makeJobs()
 	for _, job := range jobs {
 		go func(job Job) {
 			res := longCalculation(job)
 			resChannel <- res
+			if int(atomic.AddInt32(&completedJobs, 1)) == len(jobs) {
+				doneChannel <- true
+			}
 		}(job)
 	}
 
-	go func() {
-
-		close(resChannel)
-
-	}()
-
-	for result := range resChannel {
-		finalResult += result
+	for {
+		select {
+		case res := <-resChannel:
+			finalResult += res
+		case <-doneChannel:
+			fmt.Printf("The sum is %v\n", finalResult)
+			return
+		}
 	}
 
-	fmt.Printf("The sum is %v\n", finalResult)
 }
