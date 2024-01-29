@@ -37,5 +37,6 @@ func main() {
 
 	// Chapter 05 - Concurrent Programming with Go
 	// concurrency.Literals()
-	concurrency.GoRoutines()
+	// concurrency.GoRoutines()
+	concurrency.Channels()
 }
